@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: E4springdi
+Bundle-SymbolicName: de.oose.e4springdi;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: oose eG
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: javax.inject,
+ org.eclipse.e4.core.di.suppliers,
+ org.eclipse.gemini.blueprint.context.event;version="2.0.0.M02",
+ org.osgi.framework,
+ org.springframework.beans.factory;version="[3.0.0,4.0.0)",
+ org.springframework.context;version="[3.0.0,4.0.0)",
+ org.springframework.core.io.support;version="[3.0.0,4.0.0)"
+Service-Component: component.xml
+Export-Package: de.oose.e4springdi

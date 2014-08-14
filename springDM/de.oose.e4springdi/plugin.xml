@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+<!--
+   <extension
+         
+         point="org.eclipse.languages">
+      <language
+           contributionFactory="de.oose.e4springdi.SpringContributionFactorySpi"
+ 	 name="spring">
+    </language>
+   </extension>
+-->
+</plugin>

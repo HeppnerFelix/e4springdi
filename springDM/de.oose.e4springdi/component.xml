@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="SpringObjectSupplier">
+   <implementation class="de.oose.e4springdi.internal.SpringObjectSupplier"/>
+   <service>
+      <provide interface="org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier"/>
+      <provide interface="org.eclipse.gemini.blueprint.context.event.OsgiBundleApplicationContextListener"/>
+   </service>
+    <property 
+     name="dependency.injection.annotation" 
+     type="String" 
+     value="de.oose.e4springdi.SpringInject"/>
+</scr:component>
